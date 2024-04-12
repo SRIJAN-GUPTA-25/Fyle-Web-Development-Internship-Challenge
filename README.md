@@ -15,20 +15,24 @@ This project was created as a part of the Fyle Web Development Internship challe
 ## Demo and Edge Cases
 
 The website looks like the ss given in the assignment :
+
 ![SS1](Images/Screenshot_(4606).png)
 
 The Message is displayed in the Bootstrap tooltip when the user hovers over the question-circle icon :
+
 ![SS1](Images/Screenshot_(4609).png)
 
 Exclamation circle Icon appears when the user enters characters rather than a number : 
-![SS1](Images/Screenshot_(4610).png)
 
+![SS1](Images/Screenshot_(4610).png)
 ![SS1](Images/Screenshot_(4617).png)
 
 The age group has 3 options as asked in the assignment :
+
 ![SS1](Images/Screenshot_(4618).png)
 
 The entire calculation for the tax is done as per the rules provided in the assignment :
+
 ![SS1](Images/Screenshot_(4620).png)
 ![SS1](Images/Screenshot_(4621).png)
 
