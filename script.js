@@ -69,8 +69,9 @@ $(document).ready(function () {
             }
         }
 
+        var actualIncome = taxableIncome - tax;
         // Display result with commas for Indian style using toLocaleString
-        var formattedTax = tax.toLocaleString('en-IN', {
+        var formattedTax = actualIncome.toLocaleString('en-IN', {
             maximumFractionDigits: 2,
             style: 'currency',
             currency: 'INR'
