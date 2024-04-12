@@ -1,0 +1,173 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    margin: 100px auto;
+    background-color: #ffffff;
+    border: 2px solid #adacac;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    /* Add a dotted border bottom */
+    cursor: help;
+    /* Change cursor to pointer */
+}
+
+/* Tooltip text */
+.tooltip::after {
+    content: attr(data-tooltip);
+    /* Use the content attribute as the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    /* Position the tooltip above the element */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    background-color: black;
+    /* Tooltip background color */
+    color: white;
+    /* Tooltip text color */
+    padding: 5px 10px;
+    /* Padding to make the tooltip visible */
+    border-radius: 5px;
+    /* Rounded corners */
+    white-space: nowrap;
+    /* Prevent line breaks */
+}
+
+/* Show the tooltip on hover */
+.tooltip:hover::after {
+    opacity: 1;
+}
+
+.form-control {
+    border: 2px solid #adacac;
+    color: #adacac;
+}
+
+.second {
+    margin-top: 2vh;
+}
+
+.third {
+    /* margin-bottom: 2vh; */
+    padding-bottom: 4vh;
+}
+
+.fourth {
+    padding-top: 4vh;
+}
+
+.fifth {
+    color: #adacac;
+}
+
+#sixth {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.seventh {
+    padding-top: 8vh;
+}
+
+.eigth {
+    margin-top: 8vh;
+    /* margin-bottom: ; */
+}
+
+#resultText {
+    text-align: center;
+    font-size: xx-large;
+    padding: 0;
+    margin: 0;
+}
+
+.form-group input::placeholder {
+    color: #adacac;
+}
+
+.form-group {
+    position: relative;
+}
+
+.error-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: none;
+}
+
+.error-icon:hover+.error-tooltip {
+    display: block;
+}
+
+.error-tooltip {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    display: none;
+    background-color: #ffcccc;
+    color: #ff0000;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 999;
+}
+
+#taxResult {
+    padding-top: 8vh;
+}
+
+.input-icon-container {
+    position: relative;
+}
+
+.input-icon-container .bi-exclamation-circle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+.input-icon-container input {
+    padding-right: 30px;
+    /* Adjust according to the size of the icon */
+}
+
+.colored {
+    background-color: #6559f5;
+
+}
+
+.colored:hover {
+    background-color: #463f99;
+
+}
+
+.nineth {
+    width: 8vw;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+.exclamation-circle {
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+}
