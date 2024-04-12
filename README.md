@@ -14,6 +14,10 @@ This project was created as a part of the Fyle Web Development Internship challe
 
 ## Demo and Edge Cases
 
+The website looks like the ss given in the assignment :
+![SS1](Images/Screenshot_(4606).png)
+
+
 
 
 ## Technologies Used
