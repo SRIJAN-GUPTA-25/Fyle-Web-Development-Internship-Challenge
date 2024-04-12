@@ -24,7 +24,7 @@ The Message is displayed in the Bootstrap tooltip when the user hovers over the 
 
 Exclamation circle Icon appears when the user enters characters rather than a number : 
 
-![SS1](Images/Screenshot_(4610).png)
+![SS1](Images/Screenshot_(4610).jpg)
 ![SS1](Images/Screenshot_(4617).png)
 
 The age group has 3 options as asked in the assignment :
