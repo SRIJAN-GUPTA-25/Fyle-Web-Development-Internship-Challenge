@@ -33,8 +33,8 @@ The age group has 3 options as asked in the assignment :
 
 The entire calculation for the tax is done as per the rules provided in the assignment :
 
-![SS1](Images/Screenshot (4621).png)
-![SS1](Images/Screenshot (4622).png)
+![SS1](Images/Screenshot_(4624).png)
+![SS1](Images/Screenshot_(4625).png)
 
 ## Technologies Used
 HTML5  
